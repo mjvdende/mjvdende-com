@@ -4,7 +4,7 @@ tags:
   - ci
   - cd
   - tools
-subtitle: 'How to build, test and deploy in less then a day'
+subtitle: 'How to build, test and deploy in less than a day'
 cover_index: /assets/pipeline.jpg
 date: 2017-07-31 13:46:45
 ---

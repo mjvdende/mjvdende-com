@@ -8,4 +8,4 @@ Maarten is an independent consult who specializes in devops, cloud and test auto
 
 You should follow him on twitter, linkedin and blog
 
-Maarten has experience wirth AWS Cloud, certified AWS Solution architect - associate. 
+Maarten has experience with AWS Cloud, certified AWS Solution architect - associate. 

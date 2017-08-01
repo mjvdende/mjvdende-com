@@ -1,5 +1,5 @@
 
-<% if(theme.show_dates) { %>
+<% if(theme.show_dates && is_post()) { %>
     <h1 class="title"><%- item.title || theme.default_post_title || "Untitled" %></h1>
     <div class="meta">
         <%= item.date.format(config.date_format) %>

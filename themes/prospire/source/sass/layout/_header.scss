@@ -7,7 +7,7 @@
 /* Header */
 
 	#header {
-		@include padding(1.7em, 0, (1em, 0, -1.5em, 0));
+		@include padding(1.5em, 0, (0, 0, 0, 0));
 		background-color: #FD8023;
 		.logo {
 			display: block;
@@ -39,7 +39,7 @@
 		nav {
 			position: fixed;
 			right: 2em;
-			top: 2em;
+			top: 1em;
 			z-index: _misc(z-index-base);
 
 			ul {
@@ -116,11 +116,11 @@
 		}
 
 		@include breakpoint(small) {
-			@include padding(3em, 0, (1em, 0, -3em, 0));
+			@include padding(0.5em, 0, (1em, 0, 0, 0));
 
 			nav {
 				right: 0.5em;
-				top: 0.5em;
+				top: 0.9em;
 
 				ul {
 					li {

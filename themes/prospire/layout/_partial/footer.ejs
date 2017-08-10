@@ -34,6 +34,9 @@
                 <% if (theme.rss_url) { %>
                     <li><a href="<%- theme.rss_url %>" class="icon style2 fa-rss" target="_blank" ><span class="label">RSS</span></a></li>
                 <% } %>
+                 <% if (theme.phone_url) { %>
+                    <li><a href="tel:<%- theme.phone_url %>" class="icon style2 fa-phone" target="_blank" ><span class="label">Phone</span></a></li>
+                <% } %>
             </ul>
         </section>
         <ul class="copyright">

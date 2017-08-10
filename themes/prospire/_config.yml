@@ -3,6 +3,7 @@ menu:
   Home: /
   Archives: /archives
   About: /about
+  Contact: /contact
 
 # Logo Image Source
 logo_src: /images/prospire.png
@@ -26,7 +27,7 @@ default_cover_index: "http://placehold.it/450x450"
 default_cover_detail:
 
 # Show Dates for posts and pages
-show_dates:
+show_dates: true
 
 # Comments. Choose one by filling up the information
 comments:

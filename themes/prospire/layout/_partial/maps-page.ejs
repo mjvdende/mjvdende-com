@@ -26,10 +26,13 @@
     var contentString = '<div id="content">'+
     '<div id="siteNotice">'+
     '</div>'+
-    '<h1 id="firstHeading" style="margin:0 0; padding:0.2em 0">Prospire</h1>'+
+    '<h1 id="firstHeading" style="margin:0 0; padding:0.2em 0 line-height: 1.4em;">Prospire</h1>'+
     '<div id="bodyContent">'+
-    '<p style="margin:0.2em 0; padding:0.2em 0">Achterzeeweg 8 <br />'+
+    '<p style="margin:0; padding:0 0 0.4em 0; line-height: 1.4em;">Achterzeeweg 8 <br />'+
     '2201 EK Noordwijk</p>'+
+    '<p style="margin:0; padding:0 0 0.4em 0; line-height: 1.4em;">Tel: +31 635 1202 95 <br />'+
+    'Email: maarten@prospire.nl<br />'+
+    'kvk: 69218161</p>'+
     '</div>'+
     '</div>';
 
@@ -37,9 +40,8 @@
         content: contentString
     });
 
-    marker.addListener('click', function() {
-        infowindow.open(map, marker);
-    });
+    marker.addListener();
+    infowindow.open(map, marker);
 
     // Add a style-selector control to the map.
     var styleControl = document.getElementById('style-selector-control');

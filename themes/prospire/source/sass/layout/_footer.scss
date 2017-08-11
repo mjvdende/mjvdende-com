@@ -22,12 +22,12 @@
 			}
 
 			section:nth-child(1) {
-				width: calc(66% - #{$gutter});
+				width: calc(60% - #{$gutter});
 				margin-right: $gutter;
 			}
 
 			section:nth-child(2) {
-				width: calc(33% - #{$gutter});
+				width: calc(40% - #{$gutter});
 				margin-left: $gutter;
 			}
 
@@ -66,12 +66,12 @@
 
 			> .inner {
 				section:nth-child(1) {
-					width: calc(66% - #{$gutter});
+					width: calc(60% - #{$gutter});
 					margin-right: $gutter;
 				}
 
 				section:nth-child(2) {
-					width: calc(33% - #{$gutter});
+					width: calc(40% - #{$gutter});
 					margin-left: $gutter;
 				}
 			}
@@ -82,12 +82,12 @@
 
 			> .inner {
 				section:nth-child(1) {
-					width: 66%;
+					width: 60%;
 					margin-right: 0;
 				}
 
 				section:nth-child(2) {
-					width: calc(33% - #{$gutter});
+					width: calc(40% - #{$gutter});
 					margin-left: $gutter;
 				}
 			}

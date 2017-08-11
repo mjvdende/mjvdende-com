@@ -1,0 +1,14 @@
+<ul class="icons">
+<% if (theme.email_url) { %>
+    <li><a href="<%- theme.email_url %>" class="icon style2 fa-envelope-o" ><span class="label">Email</span></a></li>
+<% } %>
+<% if (theme.phone_url) { %>
+    <li><a href="tel:<%- theme.phone_url %>" class="icon style2 fa-phone" ><span class="label">Phone</span></a></li>
+<% } %>
+<% if (theme.skype_url) { %>
+    <li><a href="skype:<%- theme.skype_url %>?chat" class="icon style2 fa-skype" ><span class="label">skype</span></a></li>
+<% } %>
+<% if (theme.whatsapp_url) { %>
+    <li><a href="https://api.whatsapp.com/send?phone=31635120295" class="icon style2 fa-whatsapp" target="_blank"><span class="label">whatsapp</span></a></li>
+<% } %>
+</ul>

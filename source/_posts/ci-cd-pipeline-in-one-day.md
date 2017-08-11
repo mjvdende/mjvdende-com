@@ -9,24 +9,13 @@ cover_index: /assets/covers/pipeline.jpg
 date: 2017-07-31 13:46:45
 ---
 
-Last week I have had an interview with a recruiter for a role as DevOps lead and the guy asked how much time would it take me to build a CI/CD pipeline for a customer. When I answered that I could set something up for a customer in a day he reacted surprised. 
+Last week I have had an interview with a recruiter for a role as DevOps lead and he asked me how much time would it take me to build a CI/CD pipeline for a customer. When I answered that I could set something up for a customer in a day he reacted surprised. 
 
-# JAMstack
+# It Depends
+The right answer was of course: _it depends_. This post I will explain how I set up the simple pipeline for this website. It took me only a couple of minutes. 
 
-For this blog I am going to build a pipeline for a static website. Great recourse researching static website generator is [Staticgen](https://www.staticgen.com/). (*Beware there are loads of generators to choose frome*).
+I am using the awesome static website generator _Hexo_ for my prospire. Hexo is javascript based static website generator inspired on _Hugo_, the Golang variant of a static website generator. 
 
-> StaticGen is a leaderboard of the top open-source static site generators
-
-So why JAMstack? Because is getting momentum right now. 
-Vertel iets over jamstack
-\Maak brug naar snelle build, test en deploy cycle
-
-Waarom dan jamstack?
-
-
-
-Eigen website met JAMstack. Volgende blog over CMS op JAMstack en een JAVA (springboot CI/CD pipeline)
-
-
-
+# Components
+So you will need source code, online source code repository and a platform to host your website. The first two are obvious but for the latter, there are a couple of options. You can roll your own or easily use GitHub or Gitlab pages, but I was wondering if there would be something better out there. After some googling, I stumbled upon [github pages vs netlify](https://www.netlify.com/github-pages-vs-netlify/) and immediately I was curious about specific features like _split testing_ and _form handling_. So I went for Netlify.
 

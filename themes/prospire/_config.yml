@@ -24,7 +24,7 @@ default_post_title: blogpost
 default_cover_index: "http://placehold.it/450x450"
 
 # Default post cover index page (Optional)
-default_cover_detail:
+default_cover_detail: "http://placehold.it/1300x500"
 
 # Show Dates for posts and pages
 show_dates: true

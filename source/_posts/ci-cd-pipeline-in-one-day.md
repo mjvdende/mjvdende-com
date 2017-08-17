@@ -12,8 +12,7 @@ date: 2017-07-31 13:46:45
 
 Last week I have had an interview with a recruiter for a role as DevOps lead and he asked me how much time would it take me to build a CI/CD pipeline for a customer. When I answered that I could set something up for a customer in a day he reacted surprised. 
 
-# It Depends
-The right answer was of course: _it depends_. This post I will explain how I set up a simple pipeline for this website. It took me only a couple of minutes. You will have your html en javascript files (source code) and a place where to store and host the files and maybe a domain name. 
+The right answer was of course: _it depends_. This post I will explain how I set up a simple pipeline for this website. It only took me a couple of minutes. You will have your html en javascript files (source code) and a place where to store and host the files and maybe a domain name. 
 
 # Components
 I am using the awesome static website generator _Hexo_ for the Prospire website. Hexo is javascript based static website generator inspired on _Hugo_, the Golang variant of a static website generator. 
@@ -39,4 +38,9 @@ That's it! Well almost...
 
 # Static Website Hosting
 Now you need platform to host your website. There are a couple of options. You can roll your own (S3 for example) or easily use GitHub or Gitlab pages, but I was wondering if there would be something better out there. After some googling, I stumbled upon [github pages vs netlify](https://www.netlify.com/github-pages-vs-netlify/) and immediately I was curious about specific features like _split testing_ and _form handling_. So I went for Netlify.
+
+Using Netlify is super easy. Just connect Netlify to your repo and make sure to add the correct build command: ```hexo deploy``` and publish directory: ```public```. Now optionally configure Netlify DNS and use the [branches as subdomain](https://www.netlify.com/docs/custom-domains/#branch-subdomains) feature or configure the DNS at your domain name hoster. Now every time I push changes to my git repo, Netlify triggers a deploy. If successful in a couple of seconds later, the changes are live. 
+
+c'est tout
+
 

@@ -19,7 +19,7 @@ So people who are still running their blog on WordPress website should read on a
 # Components
 I am using the awesome static website generator **_Hexo_** for the Prospire website. Hexo is javascript based static website **generator** inspired on _Hugo_, the Golang variant of a static website generator. My source code I will store on Github. 
 
-_Created a new organization on Github and a repository that will be the **new home** of the source code for www.prospire.nl_:
+Created a new organization on Github and a repository that will be the **new home** of the source code for www.prospire.nl:
 
 <img src="prospire-github-account.jpg" alt="prospire org on github" style="width: 100%;">
 

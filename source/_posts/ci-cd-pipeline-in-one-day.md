@@ -23,7 +23,7 @@ Created a new organization on Github and a repository that will be the **new hom
 
 <img src="prospire-github-account.jpg" alt="prospire org on github" style="width: 100%;">
 
-Now create your own website locally and push the first result to Github and publish the static website. First, have a look Hexo website for [installing Hexo](https://hexo.io/) on your computer and push your website to Github:
+Now create your own website locally and push the first result to Github and **publish** the static website. First, have a look Hexo website for [installing Hexo](https://hexo.io/) on your computer and push your website to Github:
 
 
 ``` bash bash
@@ -36,8 +36,8 @@ git push
 ```
 
 # Static Website Hosting
-Now you need a platform to host your website. There are a couple of options. You can roll your own (S3 for example) or easily use GitHub pages, but I was wondering if there would be something better out there. After some googling, I stumbled upon [github pages vs netlify](https://www.netlify.com/github-pages-vs-netlify/) and immediately I was curious about specific features like _split testing_ and _form handling_. So I went for Netlify.
+Now you need a platform to host your website. There are a couple of options. You can roll your own (S3 for example) or easily use GitHub pages, but I was wondering if there would be something better out there. After some googling, I stumbled upon [github pages vs netlify](https://www.netlify.com/github-pages-vs-netlify/) and immediately I was curious about specific **features** like _**split testing**_ and _**form handling**_. So I went for Netlify.
 
-Using Netlify is super easy. Just connect Netlify to your repo and make sure to add the correct build command: ```hexo deploy``` and publish directory: ```public```. Now optionally configure Netlify DNS and use the [branches as subdomain](https://www.netlify.com/docs/custom-domains/#branch-subdomains) feature or [configure the DNS](https://www.netlify.com/docs/custom-domains/#dns-configuration) at your domain name hoster. Now when I push changes to my git repo, Netlify triggers a deploy. If successful in a couple of seconds later, the changes are live.
+Using Netlify is super **easy**. Just connect Netlify to your repo and make sure to add the correct build command: ```hexo deploy``` and publish directory: ```public```. Now optionally configure Netlify DNS and use the [branches as subdomain](https://www.netlify.com/docs/custom-domains/#branch-subdomains) feature or [configure the DNS](https://www.netlify.com/docs/custom-domains/#dns-configuration) at your domain name hoster. Now when I push **changes** to my git repo, Netlify **triggers** a **deploy**. If successful in a couple of seconds later, the changes are **live**.
 
 c'est tout

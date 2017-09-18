@@ -17,11 +17,11 @@ The right answer is of course: **_it depends_**. For example what capabilities s
 So people who are still running their blog on WordPress website should read on and take a step into the **future** of building and running a **fast** and **modern** website. My next blog will cover a more elaborate pipeline with more capabilities.
 
 # Components
-I am using the awesome static website generator **_Hexo_** for the Prospire website. Hexo is javascript based static website **generator** inspired on _Hugo_, the Golang variant of a static website generator. My source code I will store on Github. 
+I am using the awesome static website generator **_Hexo_** for the company website. Hexo is javascript based static website **generator** inspired on _Hugo_, the Golang variant of a static website generator. My source code I will store on Github. 
 
-Created a new organization on Github and a repository that will be the **new home** of the source code for www.prospire.nl:
+Created a new organization on Github and a repository that will be the **new home** of the source code for the company website:
 
-<img src="prospire-github-account.jpg" alt="prospire org on github" style="width: 100%;">
+<img src="corp-github-account.jpg" alt="company org on github" style="width: 100%;">
 
 Now create your own website locally and push the first result to Github and **publish** the static website. First, have a look Hexo website for [installing Hexo](https://hexo.io/) on your computer and push your website to Github:
 

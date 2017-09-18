@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Prospire
+title: Maarten van den Ende
 subtitle: Professional consultancy 
 description: quality cloud devops 
 author: Maarten van den Ende
@@ -12,7 +12,7 @@ timezone: Europe/Amsterdam
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://www.propsire.nl
+url: https://www.mjvdende.com
 root: /
 permalink: blog/:year/:title/
 permalink_defaults:

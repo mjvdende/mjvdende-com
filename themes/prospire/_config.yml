@@ -6,7 +6,7 @@ menu:
   Contact: /contact
 
 # Logo Image Source
-logo_src: /images/prospire.png
+logo_src: https://placehold.it/500x100
 profile_pic: /images/profile-pic.jpg
 # Theme Main Subtitle
 subtitle_main: DevOps expert. Specialized in AWS, Docker and test automation.
@@ -21,10 +21,10 @@ about_footer: Prospire is helps companies implement a digital strategy through c
 default_post_title: blogpost
 
 # Default post cover index page (Recommended)
-default_cover_index: "http://placehold.it/450x450"
+default_cover_index: "https://placehold.it/450x450"
 
 # Default post cover index page (Optional)
-default_cover_detail: "http://placehold.it/1300x500"
+default_cover_detail: "https://placehold.it/1300x500"
 
 # Show Dates for posts and pages
 show_dates: true

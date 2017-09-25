@@ -32,7 +32,7 @@ show_dates: true
 # Comments. Choose one by filling up the information
 comments:
   # Disqus comments
-  disqus_shortname: propsire-nl
+  disqus_shortname: build-eleven-nl
   # # Facebook comments
   # facebook:
   #   appid:

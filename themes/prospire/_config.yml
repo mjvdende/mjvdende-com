@@ -6,7 +6,7 @@ menu:
   Contact: /contact
 
 # Logo Image Source
-logo_src: https://placehold.it/500x100
+logo_src: /images/buildeleven.png
 profile_pic: /images/profile-pic.jpg
 # Theme Main Subtitle
 subtitle_main: DevOps expert. Specialized in AWS, Docker and test automation.
@@ -45,7 +45,7 @@ google_analytics: UA-112339-12
 # Social Accounts
 twitter_url: https://twitter.com/mjvdende
 github_url: https://github.com/mjvdende
-email_url: mailto:maartenvdende@gmail.com?subject=Mail from mjvdende.com
+email_url: mailto:maarten@buildeleven.nl?subject=Mail from buildeleven.nl
 rss_url: /atom.xml
 phone_url: +31635120295
 skype_url: maartenjohn

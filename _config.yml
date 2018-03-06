@@ -12,7 +12,7 @@ timezone: Europe/Amsterdam
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://www.mjvdende.com
+url: https://www.buildeleven.nl
 root: /
 permalink: blog/:year/:title/
 permalink_defaults:

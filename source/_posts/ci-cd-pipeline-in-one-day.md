@@ -17,7 +17,7 @@ The right answer is of course: **_it depends_**. For example what capabilities s
 So people who are still running their blog on WordPress website should read on and take a step into the **future** of building and running a **fast** and **modern** website. My next blog will cover a more elaborate pipeline with more capabilities.
 
 # Components
-I am using the awesome static website generator **_Hexo_** for the company website. Hexo is javascript based static website **generator** inspired on _Hugo_, the Golang variant of a static website generator. My source code I will store on Github. 
+I am using the awesome static website generator **_Hexo_** for the company website. Hexo is javascript based static website **generator** inspired on _Hugo_, the Golang variant of a static website generator. I will store my code on Github. 
 
 Created a new organization on Github and a repository that will be the **new home** of the source code for the company website:
 
